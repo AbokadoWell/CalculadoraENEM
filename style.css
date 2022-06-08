@@ -37,6 +37,7 @@ button { /*"Clique aqui para calcular"*/
 button:hover {
     background-color: #b5d8f2;
     color: #0086c9;
+    cursor: pointer;
 }
 .botao {
     display: flex;

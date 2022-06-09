@@ -25,10 +25,10 @@ function media(){
     if (mat == undefined || null) {(mat = 0)} //considera "cancela" ou "ok" como 0
     document.getElementById('mat').innerHTML = (`${mat} ponto(s) em Matemáticas <br>`);
 
-    cn =  prompt ("Digite sua nota em Ciências Naturais:");
+    cn =  prompt ("Digite sua nota em Ciências da Natureza:");
     cn = eval (cn);
     if (cn == undefined || null) {(cn = 0)} //considera "cancela" ou "ok" como 0
-    document.getElementById('cn').innerHTML = (`${cn} ponto(s) em Ciências Naturais <br>`);
+    document.getElementById('cn').innerHTML = (`${cn} ponto(s) em Ciências da Natureza <br>`);
 
 
     med = (lin + ch + red + mat + cn)/5;
